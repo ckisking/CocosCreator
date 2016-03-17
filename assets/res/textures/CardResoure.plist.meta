@@ -7,6 +7,7 @@
     "height": 1024
   },
   "type": "Texture Packer",
+  "rawTexturePath": "/Users/develop/Desktop/git/assets/res/textures/CardResoure.png",
   "subMetas": {
     "Armor.png": {
       "ver": "1.0.2",
@@ -25,6 +26,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -45,6 +47,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -65,6 +68,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -85,6 +89,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -105,6 +110,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -125,6 +131,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -145,6 +152,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -165,6 +173,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -185,6 +194,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -205,6 +215,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -225,6 +236,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -245,6 +257,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -265,6 +278,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -285,6 +299,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -305,6 +320,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -325,6 +341,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -345,6 +362,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -365,6 +383,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -385,6 +404,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -405,6 +425,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -425,6 +446,7 @@
       "borderBottom": 3,
       "borderLeft": 11,
       "borderRight": 9,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -445,6 +467,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -465,6 +488,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -485,6 +509,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -505,6 +530,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -525,6 +551,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -545,6 +572,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -565,6 +593,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -585,6 +614,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -605,6 +635,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -625,6 +656,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -645,6 +677,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -665,6 +698,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -685,6 +719,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -705,6 +740,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -725,6 +761,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -745,6 +782,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -765,6 +803,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -785,6 +824,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -805,6 +845,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -825,6 +866,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -845,6 +887,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -865,6 +908,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -885,6 +929,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -905,6 +950,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -925,6 +971,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -945,6 +992,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -965,6 +1013,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -985,6 +1034,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1005,6 +1055,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1025,6 +1076,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1045,6 +1097,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1065,6 +1118,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1085,6 +1139,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1105,6 +1160,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1125,6 +1181,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1145,6 +1202,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1165,6 +1223,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1185,6 +1244,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1205,6 +1265,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1225,6 +1286,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1245,6 +1307,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1265,6 +1328,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1285,6 +1349,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1305,6 +1370,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1325,6 +1391,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1345,6 +1412,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1365,6 +1433,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1385,6 +1454,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1405,6 +1475,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1425,6 +1496,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1445,6 +1517,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1465,6 +1538,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1485,6 +1559,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1505,6 +1580,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1525,6 +1601,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1545,6 +1622,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1565,6 +1643,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1585,6 +1664,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1605,6 +1685,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1625,6 +1706,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1645,6 +1727,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1665,6 +1748,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1685,6 +1769,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1705,6 +1790,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1725,6 +1811,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1745,6 +1832,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1765,6 +1853,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1785,6 +1874,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1805,6 +1895,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1825,6 +1916,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1845,6 +1937,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1865,6 +1958,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1885,6 +1979,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1905,6 +2000,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1925,6 +2021,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1945,6 +2042,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1965,6 +2063,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -1985,6 +2084,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2005,6 +2105,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2025,6 +2126,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2045,6 +2147,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2065,6 +2168,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2085,6 +2189,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2105,6 +2210,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2125,6 +2231,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2145,6 +2252,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2165,6 +2273,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2185,6 +2294,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2205,6 +2315,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2225,6 +2336,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2245,6 +2357,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2265,6 +2378,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2285,6 +2399,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2305,6 +2420,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2325,6 +2441,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2345,6 +2462,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2365,6 +2483,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2385,6 +2504,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2405,6 +2525,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2425,6 +2546,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2445,6 +2567,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2465,6 +2588,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2485,6 +2609,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2505,6 +2630,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     },
@@ -2525,6 +2651,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "import": null,
       "spriteType": "normal",
       "subMetas": {}
     }
