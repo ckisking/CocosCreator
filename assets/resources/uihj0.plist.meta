@@ -7,7 +7,7 @@
     "height": 390
   },
   "type": "Texture Packer",
-  "rawTexturePath": "/Users/develop/Desktop/git/assets/resources/uihj0.png",
+  "rawTexturePath": "C:\\Users\\Administrator\\Desktop\\git\\assets\\resources\\uihj0.png",
   "subMetas": {
     "Arena.png": {
       "ver": "1.0.2",
@@ -26,8 +26,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "ChatButton.png": {
@@ -47,8 +47,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "ChatDian.png": {
@@ -68,8 +68,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "Forge.png": {
@@ -89,8 +89,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "HeroHome.png": {
@@ -110,8 +110,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "LevelBattleForrest.png": {
@@ -131,8 +131,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "MainBG2.png": {
@@ -152,8 +152,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "MainBGWall.png": {
@@ -173,8 +173,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "SkillCastle.png": {
@@ -194,8 +194,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "YingXiongGuang.png": {
@@ -215,8 +215,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "archieveline.png": {
@@ -236,8 +236,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "chat1.png": {
@@ -257,8 +257,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "chuansongmen2.png": {
@@ -278,8 +278,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "coinTitle.png": {
@@ -299,8 +299,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "debrisTitle.png": {
@@ -320,8 +320,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "equipmentbox.png": {
@@ -341,8 +341,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "equipmentbox2.png": {
@@ -362,8 +362,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "expTitle.png": {
@@ -383,8 +383,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "full.png": {
@@ -404,8 +404,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "maincity1.png": {
@@ -425,8 +425,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "maincity2.png": {
@@ -446,8 +446,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "maincity3.png": {
@@ -467,8 +467,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "maincity4.png": {
@@ -488,8 +488,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "maincity5.png": {
@@ -509,8 +509,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "maincity6.png": {
@@ -530,8 +530,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "maincity7.png": {
@@ -551,8 +551,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "materialTitle.png": {
@@ -572,8 +572,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "new.png": {
@@ -593,8 +593,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "newhint.png": {
@@ -614,8 +614,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "newplayergift_word.png": {
@@ -635,8 +635,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "newsettingbutton.png": {
@@ -656,8 +656,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "shangchangguang.png": {
@@ -677,8 +677,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "signin_greenbottom.png": {
@@ -698,8 +698,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "signin_title.png": {
@@ -719,8 +719,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "signin_yellow_angel.png": {
@@ -740,8 +740,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "sunsun0028.png": {
@@ -761,8 +761,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "title_activity.png": {
@@ -782,8 +782,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "title_arena.png": {
@@ -803,8 +803,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "title_enhance.png": {
@@ -824,8 +824,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "title_hero.png": {
@@ -845,8 +845,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "title_shop.png": {
@@ -866,8 +866,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "title_stage.png": {
@@ -887,8 +887,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "title_tower.png": {
@@ -908,8 +908,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "title_training.png": {
@@ -929,8 +929,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "vip_priorty.png": {
@@ -950,8 +950,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "yancongyan.png": {
@@ -971,8 +971,8 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "import": null,
+      "spriteType": "normal",
       "subMetas": {}
     }
   }

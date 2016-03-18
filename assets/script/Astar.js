@@ -160,14 +160,14 @@ var Astar = cc.Class({
         var self = this;
         
         for(let w = 0; w < AStarWidth; w++){
-             for(let h = 0; w < AStarHeight; h++){
+             for(let h = 0; h < AStarHeight; h++){
                  var coordInfo = new Astar_Coord_Info();
                  coordInfo.point = cc.p(w, h);
                  coordInfo.pointOrg = cc.p(self.m_nBlockSize / 2 + w * self.m_nBlockSize, self.m_nBlockSize / 2 + self.m_nBlockSize * h);
                  var tileGid = layer.getTileGIDAt(cc.p(w, AStarHeight - 1 - h));
                  if(tileGid > 0){
                      var prop = tiledmap.getPropertiesForGID(tileGid);
-                     cc.log(prop);  //输出地图块属性
+                     cc.log(prop.floor);  //输出地图块属性
                  }
              }
         }

@@ -16,7 +16,9 @@ cc.Class({
         if (err) return;
         this._tiledMap = this.node.getComponent('cc.TiledMap');
         var astar = new Astar();
-        astar.InitAStarCoordWith(_tiledMap);
+        astar.InitAStarCoordWith(this._tiledMap);
+        var a = 555;
+         cc.log(typeof a);
     },
 
     // called every frame, uncomment this function to activate update callback
