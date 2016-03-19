@@ -49,6 +49,15 @@ var Astar = cc.Class({
         cc.log(this.m_AstarCoordInfo);
     },
     
+    //寻路开始
+    MoveToFoward : function(){
+        if(this.m_shortestPaths.length === 0)
+        {
+           this.m_shortestPaths.length = 0; 
+        }
+        
+    },
+    
     //插入open列表,并且小到大排序
     InsertInOpenArray : function(step){
        var stepFScore = step.getFScore();
