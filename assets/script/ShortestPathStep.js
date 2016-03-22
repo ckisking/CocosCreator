@@ -1,7 +1,7 @@
 var ShortestPathStep = cc.Class({
     name: 'ShortestPathStep',
     ctor () {
-        this.position = cc.p(0,0);
+        this.position = cc.p(0,0);  //保存的是方块坐标
         this.gScore = 0;
         this.hScore = 0;
         this.parent = null;

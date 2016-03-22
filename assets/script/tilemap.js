@@ -1,5 +1,6 @@
 
 const Astar = require('Astar');
+var res = require('gobalSet');
 
 cc.Class({
     extends: cc.Component,
@@ -17,8 +18,7 @@ cc.Class({
         this._tiledMap = this.node.getComponent('cc.TiledMap');
         var astar = new Astar();
         astar.InitAStarCoordWith(this._tiledMap);
-        var a = 555;
-         cc.log(typeof a);
+        astar.MoveToFoward(cc.p(40,40), cc.p(70,100));
     },
 
     // called every frame, uncomment this function to activate update callback

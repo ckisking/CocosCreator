@@ -4,7 +4,7 @@ var Astar_Coord_Info = cc.Class(
         this.pointOrg = cc.p(0,0);
         this.point =  cc.p(0,0);
         this.nCost = 0;
-        this.nType = 0;
+        this.nType = 1;
         },
     });
 const ShortestPathStep = require('ShortestPathStep');
@@ -22,47 +22,84 @@ var Astar = cc.Class({
 
     // use this for initialization
     onLoad: function () {
-        var astar = new Astar_Coord_Info();
-        astar.point = cc.p(100,100);
-        astar.pointOrg = cc.p(50,50);
-        astar.nCost = 10;
-        astar.nType = 1;
-        
-        var a = new ShortestPathStep();
-        a.gScore = 10;
-        a.hScore = 2;
-        var b =  new ShortestPathStep();
-        b.gScore = 15;
-        b.hScore = 2;
-        var c =  new ShortestPathStep();
-        c.gScore = 12;
-        c.hScore = 2;
-        this.openArray.push(a);
-        this.openArray.push(b);
-        // for(let i = 0; i<=openArray.length; i++)
-        // {
-        //     cc.log(openArray[i]);
-        // }
-        cc.log(this.AStarCoordForPosition(cc.p(50,40)));
-        this.InsertInOpenArray(c);
-        this.InitAStarCoord();
-        cc.log(this.m_AstarCoordInfo);
     },
     
     //寻路开始
-    MoveToFoward : function(){
-        if(this.m_shortestPaths.length === 0)
-        {
-           this.m_shortestPaths.length = 0; 
-           var a = 10;
+    MoveToFoward : function(fromPos, toPos){
+        var self = this;
+        if(self.m_shortestPaths.length === 0){
+           self.m_shortestPaths.length = 0; 
+        }
+        var fromAStarCoord = self.AStarCoordForPosition(fromPos);
+        var toAStarCoord = self.AStarCoordForPosition(toPos);
+        cc.log('起点'+fromAStarCoord+'   重点'+toAStarCoord);
+        //检查起点终点是否为同一个点
+        if(cc.pSameAs(fromAStarCoord,toAStarCoord)){
+            return;
+        }
+        //终点是否为有效点
+        if(!self.IsValidPos(toAStarCoord)){
+            cc.log('无效'+toAStarCoord);
+            return;
         }
         
+        var step = new ShortestPathStep();
+        step.initWithPosition(fromAStarCoord);
+        self.InsertInOpenArray(step);  
+        
+        do{
+            var curStep = self.openArray[0];
+            self.closeArray.push(curStep);
+            self.openArray.splice(0,1);
+            
+            if(cc.pSameAs(curStep.position, toAStarCoord)){
+               cc.log("寻路完成");
+               self.ConstructShortPath(curStep);
+                cc.log(curStep);
+               cc.log(self.m_shortestPaths);
+               break;
+            }
+            
+            var pointVec = new Array();
+            self.walkableForTileCoord(curStep.position, pointVec);
+            for(let i = 0; i < pointVec.length; i++){
+                var st = new ShortestPathStep();
+                st.initWithPosition(pointVec[i]);
+                
+                if(self.ContainObject(self.closeArray, st)){
+                    continue;
+                }
+                
+                var moveCost = self.costToMoveFromStep(curStep, st);
+                var index = self.indexOfObject(self.openArray, st);
+                
+                if(index === false ){
+                    st.parent = curStep;
+                    st.gScore = st.gScore + moveCost;
+                    st.hScore = self.computeHScoreFromCoord(st.position, toAStarCoord)*10;
+                    self.InsertInOpenArray(st);
+                }
+                else{
+                    st = self.openArray[index];
+                    if((curStep.gScore + moveCost) < st.gScore){
+                        st.gScore = curStep.gScore + moveCost;
+                        self.openArray.splice(index, 0);
+                        self.InsertInOpenArray(st);
+                    }
+                }
+            }
+            
+        }while(self.openArray.length > 0)
+        self.EndAStar();    
     },
     
     //插入open列表,并且小到大排序
     InsertInOpenArray : function(step){
        var stepFScore = step.getFScore();
        var count = this.openArray.length;
+       if(count === 0){
+           this.openArray.push(step);
+       }
        var i = 0;
        for(; i<count ; i++){
            if(stepFScore <= this.openArray[i].getFScore()){
@@ -75,14 +112,15 @@ var Astar = cc.Class({
     
     //通过坐标点返回 地图方块坐标
     AStarCoordForPosition : function(point){
-        return cc.p(Math.ceil(point.x/this.m_nBlockSize), Math.ceil(point.y/this.m_nBlockSize));
+        return cc.p(Math.floor(point.x/this.m_nBlockSize), Math.floor(point.y/this.m_nBlockSize));
     },
     
     //判断是否为有效坐标（障碍物为无效）
     IsValidPos : function(point){
-        for(let i=0; i<m_AstarCoordInfo.length; i++){
-            if(m_AstarCoordInfo[i].point = point){
-                return m_AstarCoordInfo[i].nType == 0;
+        for(let i=0; i<this.m_AstarCoordInfo.length; i++){
+            if(cc.pSameAs(this.m_AstarCoordInfo[i].point, point)){
+                cc.log('nType' + this.m_AstarCoordInfo[i].nType)
+                return this.m_AstarCoordInfo[i].nType === 0;
             }
         }
     },
@@ -124,11 +162,12 @@ var Astar = cc.Class({
           b = true;
       }
       //Right
-      p = cc.p(point.x, point.y-1);
+      p = cc.p(point.x + 1, point.y);
       if(this.IsValidPos(p)){
           tmp.push(p);
           r = true;
       }
+      cc.log("tmp"+tmp);
     },
     
     //获取A*算法中的 到目的地的估算消耗
@@ -162,6 +201,16 @@ var Astar = cc.Class({
       return false;
     },
     
+    //获取最短路径
+    ConstructShortPath : function(step){
+      do{
+          if(step.parent !== null){
+              this.m_shortestPaths.splice(0, 0, step);
+          }
+          step = step.parent;
+      }while(step != null)
+    },
+    
     //瓦片地图初始化到内存
     InitAStarCoordWith : function(tiledmap){
         var layer = tiledmap.getLayer('block');
@@ -175,12 +224,21 @@ var Astar = cc.Class({
                  coordInfo.point = cc.p(w, h);
                  coordInfo.pointOrg = cc.p(self.m_nBlockSize / 2 + w * self.m_nBlockSize, self.m_nBlockSize / 2 + self.m_nBlockSize * h);
                  var tileGid = layer.getTileGIDAt(cc.p(w, AStarHeight - 1 - h));
+                 //判断这个图层中存在该瓦片
                  if(tileGid > 0){
                      var prop = tiledmap.getPropertiesForGID(tileGid);
-                     cc.log(prop.floor);  //输出地图块属性
+                     cc.log(prop.block);  //输出地图块属性
+                     if(prop.block === true){
+                         coordInfo.nType = 1;
+                     }
                  }
+                 else{
+                      coordInfo.nType = 0;
+                 }
+                 this.m_AstarCoordInfo.push(coordInfo);
              }
         }
+        cc.log(this.m_AstarCoordInfo);
     },
     
     //自定义地图初始化

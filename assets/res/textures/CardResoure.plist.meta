@@ -7,7 +7,7 @@
     "height": 1024
   },
   "type": "Texture Packer",
-  "rawTexturePath": "C:\\Users\\Administrator\\Desktop\\git\\assets\\res\\textures\\CardResoure.png",
+  "rawTexturePath": "/Users/develop/Desktop/git/assets/res/textures/CardResoure.png",
   "subMetas": {
     "Armor.png": {
       "ver": "1.0.2",
