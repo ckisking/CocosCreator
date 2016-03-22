@@ -54,6 +54,7 @@ var Astar = cc.Class({
         if(this.m_shortestPaths.length === 0)
         {
            this.m_shortestPaths.length = 0; 
+           var a = 10;
         }
         
     },
