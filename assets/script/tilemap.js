@@ -24,6 +24,7 @@ cc.Class({
     onLoad: function () {
         var self = this;
         self.arrPlayer = [];
+        self.count = 0;
         self._player = self.node.getChildByName('player');               //获取node的名为player的子节点
         if (! self._isMapLoaded) {
             self._player.active = false;
@@ -51,15 +52,15 @@ cc.Class({
            
            //开始寻路
            var list =  self.query.queryPath(startpos, endpos);
-           
+           //self.moveByShortpath(list);
            //画出路径
-           for(let i=0; i<list.length; i++){
+          for(let i=0; i<list.length; i++){
                 cc.log(list[i].x+','+list[i].y);
                 var monster = cc.instantiate(self._player);
                 monster.position = cc.p((list[i].x) * 32 + 16, (list[i].y) * 32 + 16);
                 self.node.addChild(monster);
                 self.arrPlayer.push(monster);
-           }
+          }
            self._player.position = self.node.convertToNodeSpaceAR(self._touchStartPos);
         }
         
@@ -92,7 +93,6 @@ cc.Class({
     theMapLoaded: function(err) {
         if (err) return;
         this._tiledMap = this.node.getComponent('cc.TiledMap');
-        this.node.scale = 0.5;
        //获取对象属性
         this._layerFloor = this._tiledMap.getLayer('floor');
         var objectGroup = this._tiledMap.getObjectGroup(this.objectGroupName);
@@ -107,7 +107,7 @@ cc.Class({
         
        
         var map = this.initMapWithTiled(this._tiledMap);
-        
+        this.node.scale = 0.5;
         //初始化寻路类
 	    this.query = new LStarQuery();
         this.query._map = [];
@@ -170,7 +170,14 @@ cc.Class({
     
     //根据获取的最短路径行走
     moveByShortpath : function(path){
-        
+        if(this.count >= path.length){
+            return;
+            this.count = 0;
+        }
+        var pos = cc.p((path[this.count].x) * 32 + 16, (path[this.count].y) * 32 + 16);
+        var call = cc.sequence(cc.moveTo(0.5, pos), cc.callFunc(this.moveByShortpath, path, true))
+        this._player.runAction(call);
+        this.count ++;
     }
     // called every frame, uncomment this function to activate update callback
     // update: function (dt) {
