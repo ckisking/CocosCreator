@@ -1,4 +1,6 @@
-/*做血条和技能冷却*/
+/**
+ * 做血条和技能冷却
+ */ 
 
 cc.Class({
     extends: cc.Component,

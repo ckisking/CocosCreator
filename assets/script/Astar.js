@@ -27,12 +27,12 @@ var Astar = cc.Class({
     //寻路开始
     MoveToFoward : function(fromPos, toPos){
         var self = this;
-        if(self.m_shortestPaths.length === 0){
+        if(self.m_shortestPaths.length !== 0){
            self.m_shortestPaths.length = 0; 
         }
         var fromAStarCoord = self.AStarCoordForPosition(fromPos);
         var toAStarCoord = self.AStarCoordForPosition(toPos);
-        cc.log('起点'+fromAStarCoord+'   重点'+toAStarCoord);
+        cc.log('起点'+fromAStarCoord+'   终点'+toAStarCoord);
         //检查起点终点是否为同一个点
         if(cc.pSameAs(fromAStarCoord,toAStarCoord)){
             return;
@@ -55,7 +55,6 @@ var Astar = cc.Class({
             if(cc.pSameAs(curStep.position, toAStarCoord)){
                cc.log("寻路完成");
                self.ConstructShortPath(curStep);
-                cc.log(curStep);
                cc.log(self.m_shortestPaths);
                break;
             }
@@ -107,7 +106,6 @@ var Astar = cc.Class({
                break;
            }
        }
-      cc.log(this.openArray);
     },
     
     //通过坐标点返回 地图方块坐标
@@ -119,7 +117,7 @@ var Astar = cc.Class({
     IsValidPos : function(point){
         for(let i=0; i<this.m_AstarCoordInfo.length; i++){
             if(cc.pSameAs(this.m_AstarCoordInfo[i].point, point)){
-                cc.log('nType' + this.m_AstarCoordInfo[i].nType)
+                cc.log('nType  ' + this.m_AstarCoordInfo[i].nType)
                 return this.m_AstarCoordInfo[i].nType === 0;
             }
         }
@@ -127,6 +125,7 @@ var Astar = cc.Class({
     
     //结束寻路后
     EndAStar : function(){
+      cc.log("寻路完成了！！" +this.openArray);
       this.openArray.length = 0;  
       this.closeArray.length = 0;
     },
@@ -167,7 +166,6 @@ var Astar = cc.Class({
           tmp.push(p);
           r = true;
       }
-      cc.log("tmp"+tmp);
     },
     
     //获取A*算法中的 到目的地的估算消耗
